@@ -37,10 +37,9 @@ body{
   line-height: 18px;
 }
 
-p, ul {
+p, ul, ol, td {
   font-family: verdana, arial, helvetica, sans-serif;
   line-height: 18px;
-  display: block;
   font-size: 13px;
   margin: 33px;
 }
@@ -99,4 +98,8 @@ a:visited {
 
 label{
   display: block;
+}
+
+.errors_message {
+  padding: 0 0 0 40px;
 }
