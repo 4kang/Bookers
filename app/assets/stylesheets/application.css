@@ -21,9 +21,7 @@
 }
 
 h1{
-  display: block;
-  font-size: 2em;
-  margin : 10px 0;
+  margin: 17.42px 0;
 }
 
 h2{
@@ -45,6 +43,16 @@ p, ul {
   display: block;
   font-size: 13px;
   margin: 33px;
+}
+
+th{
+  padding-bottom: 5px;
+}
+
+td{
+  padding-bottom: 7px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .field, .action {
@@ -76,4 +84,19 @@ p, ul {
   background-color: red;
   display: table;
 }
-  
+
+#notice{
+  color: green;
+}
+
+a{
+  color: #000;
+}
+
+a:visited {
+  color: #666;
+}
+
+label{
+  display: block;
+}
